@@ -1,11 +1,17 @@
 public class HelloWorld{
 
-private String swag;
+private String name;
 
 	public HelloWorld(String swag)
 	{
-		this.swag = swag;
+		
 	}
 
-
+	public String getName(){
+		return name;
+	}
+	public void setName(String n){
+		name = n;
+	}
+	
 }
