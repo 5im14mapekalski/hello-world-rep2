@@ -1,13 +1,23 @@
 public class HelloWorld{
 
-private String swag;
+private String name;
 
 	public HelloWorld(String swag)
-	{
-		this.swag = swag;
+	{		this.swag = swag;
 		System.out.println(swag);
 	}
 
 	
+
+		
+	}
+
+	public String getName(){
+		return name;
+	}
+	public void setName(String n){
+		name = n;
+	}
+
 	
 }
